@@ -20,7 +20,7 @@ ensembles_S = {
     "32F3fh-0" : { "L" : [32]*3 + [48], "beta" :  2.44, "ml" : 0.0176, "ms" : 0.0176, "mc" : None, "Ls" : 12, "b" : 1.25, "c" : 0.25,
                    "M5" : 1.8, "nsteps" : 8, "nsubsteps" : 4, "tau" : 8, "nwf_max" : 1200, "Q" : Q_therm_F, "fermionic_from" : 28 },
     "32F3fh-Q15-0" : { "L" : [32]*3 + [48], "beta" :  2.44, "ml" : 0.0176, "ms" : 0.0176, "mc" : None, "Ls" : 12, "b" : 1.25, "c" : 0.25,
-                       "M5" : 1.8, "nsteps" : 8, "nsubsteps" : 4, "tau" : 8, "nwf_max" : 1200, "Q" : (15, 1, 8), "fermionic_from" : 28 },
+                       "M5" : 1.8, "nsteps" : 8, "nsubsteps" : 6, "tau" : 8, "nwf_max" : 1200, "Q" : (15, 1, 8), "fermionic_from" : 28 }, # after thermalization, tune dH (nsubsteps 4->6)
     "32F3fh-1" : { "L" : [32]*3 + [48], "beta" :  2.41, "ml" : 0.0176, "ms" : 0.0176, "mc" : None, "Ls" : 12, "b" : 1.25, "c" : 0.25,
                    "M5" : 1.8, "nsteps" : 8, "nsubsteps" : 4, "tau" : 8, "nwf_max" : 1200, "Q" : Q_therm_F, "fermionic_from" : 28 },
     "32F3fh-2" : { "L" : [32]*3 + [48], "beta" :  2.47, "ml" : 0.0176, "ms" : 0.0176, "mc" : None, "Ls" : 12, "b" : 1.25, "c" : 0.25,
